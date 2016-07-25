@@ -1,0 +1,180 @@
+/* Reset */
+
+button,
+input {
+  background-clip: padding-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  font-weight: normal;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  outline: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Basics */
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #373a3c;
+  background-color: #fff; 
+}
+
+/* Layout */
+
+.contain {
+  max-width: 71.25em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; 
+}
+
+.aic {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* Type */
+
+.ms1 {
+  font-size: 1.25rem;
+}
+
+/* Colors */
+
+.on-light {
+  background-color: #f7f7f9;
+}
+
+.on-dark {
+  background-color: #373a3c;
+}
+
+.on-white {
+  background-color: #fff;
+}
+
+.on-success-hover:hover {
+  background-color: #5cb85c;
+}
+
+.light {
+  color: #eceeef;
+}
+
+.dark {
+  color: #373a3c;
+}
+
+.success {
+  color: #5cb85c;
+}
+
+.white-hover:hover {
+  color: #fff;
+}
+
+.bd-light {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+.bd-transparent-hover:hover {
+  border-color: transparent;
+  background-clip: border-box;
+}
+
+.bd-highlight-focus:focus {
+  border-color: #66afe9;
+}
+
+/* Effects */
+
+.border-1 {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.rounded {
+  border-radius: .1875rem;
+}
+
+/* Spacing */
+
+.px-1 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-half {
+  padding-left: .75rem;
+  padding-right: .75rem;
+}
+
+.py-quarter {
+  padding-top: .375rem;
+  padding-bottom: .375rem;
+}
+
+.py-half {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
+.ml-a {
+  margin-left: auto;
+}
+
+.ml-1 {
+  margin-left: 1.5rem;
+}
+
+.ml-quarter {
+  margin-left: .375rem;
+}
+
+/* Patterns */
+
+.link {
+  opacity: .4;
+}
+
+.link:hover {
+  opacity: .8;
+}
+
+.link-active {
+  opacity: 1;
+}

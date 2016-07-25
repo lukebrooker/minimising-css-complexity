@@ -1,0 +1,27 @@
+.h1 {
+  font-size: inherit;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+button {
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+input {
+  border: 0;
+  padding: 0;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  outline: 0;
+}

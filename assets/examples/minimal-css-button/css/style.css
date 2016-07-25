@@ -1,0 +1,165 @@
+/* Reset */
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+
+button {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: inherit;
+  cursor: pointer;
+  color: inherit;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+/* Base */
+
+body {
+  line-height: 1.5;
+  font-family: sans-serif;
+  color: rgba(0,0,0,.87);
+}
+
+/* Button Row */
+
+.button-row {
+  margin-top: 1.5rem;
+}
+
+.button-row > * {
+  margin-left: .75rem;
+}
+
+/* Button */
+
+.button {
+  font-weight: 500;
+  font-size: 1em;
+  text-transform: uppercase;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  padding: .75em 1.5em;
+  border-radius: .125em;
+  letter-spacing: .03em;
+}
+
+/* Scale */
+
+.scale-sm {
+  font-size: .875em;
+}
+
+.scale-lg {
+  font-size: 1.25em;
+}
+
+/* Colors */
+
+.primary {
+  color: #2196F3;
+}
+
+.accent {
+  color: #FF4081;
+}
+
+.danger {
+  color: #F44336;
+}
+
+.light {
+  color: #fff;
+}
+
+.on-primary {
+  background-color: #2196F3;
+}
+
+.on-accent {
+  background-color: #FF4081;
+}
+
+.on-danger {
+  background-color: #F44336;
+}
+
+.on-light {
+  background-color: #fff;
+}
+
+/* Spacing */
+
+.p-h {
+  padding: .75em;
+}
+
+.py-h {
+  padding-top: .75em;
+  padding-bottom: .75em;
+}
+
+.px-1 {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.square-1 {
+  height: 3em;
+  width: 3em;
+}
+
+/*  Effects */
+
+.shadow-1,
+.shadow-1-on-hover:hover {
+  box-shadow: 0 0 2px rgba(0,0,0,.12),0 2px 2px rgba(0,0,0,.2);
+}
+
+.round {
+  border-radius: 10rem;
+}
+
+.lighten-on-hover {
+  position: relative;
+  z-index: 1;
+}
+
+.lighten-on-hover:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  opacity: 0;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.lighten-on-hover:hover:before {
+  opacity: .15;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: .7;
+}

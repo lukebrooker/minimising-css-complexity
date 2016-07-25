@@ -1,0 +1,33 @@
+- What's our goal? Is it…
+  - Write semantic html, use CSS to style it?
+  - Write reusable CSS "components"?
+- We (usually) don't read CSS
+- Goal
+  > If I’m reading html, I want to know what the css is going to do. If I’m reading css I want to know what will happen if I apply it to a block of html. — http://mrmrs.io/writing/2016/03/24/scalable-css/
+
+- How do we think when writing CSS?
+  - CSS is a design tool
+  - How do other design tools work? (Sketch styles)
+- Clean defaults
+  - normalize/react-native-for-web - @necolas
+- Less CSS is less complex
+- Avoid overrides
+  - Laziness cascades
+  - Not mobile/desktop first, simplest first
+- Don't abstract too early
+- Design constraints as utils/vars/traits
+  - You should be able to design with traits/classes
+  - Designing like this makes you think differently
+- Techniques/Examples
+  - Buttons
+  - Layout
+    - Text Direction (don't use floats)
+  - Theming
+- Implementation
+  - BEMy
+  - Atomic CSS
+  - CSS Modules
+- Utils/Plugins (https://www.sitepoint.com/improving-the-quality-of-your-css-with-postcss/)
+- Things needing improvement
+  - Media queries
+  - Pseudo-selectors
